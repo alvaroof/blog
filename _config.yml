@@ -40,8 +40,8 @@ baseurl: "/blog" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     twitter: 
-    github: https://github.com/alvaroof
-    linkedin: https://www.linkedin.com/in/alvaroof
+    github: alvaroof
+    linkedin: alvaroof
 
 # Set this to true to get LaTeX math equation support
 use_math: true
