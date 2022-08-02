@@ -1,14 +1,13 @@
-name: example-environment
+name: blog-environment
 channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
+  - pandas
   - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - pandas
+  - altair
+  - seaborn
+  - bokeh  
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - scikit-learn

@@ -1,0 +1,15 @@
+## General
+pandas
+numpy
+jupyterlab
+jupytext
+jupyter_contrib_nbextensions
+
+## Visualization
+matplotlib
+altair
+seaborn
+bokeh
+
+## Machine Learning
+sklearn
