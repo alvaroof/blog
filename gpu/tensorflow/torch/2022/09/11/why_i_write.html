@@ -4,20 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tags | My Data Science Bits</title>
+<title>How to configure a laptop’s NVIDIA GPU for Deep Learning | My Data Science Bits</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="How to configure a laptop’s NVIDIA GPU for Deep Learning" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="My personal thought on several unimportant matters." />
-<meta property="og:description" content="My personal thought on several unimportant matters." />
-<link rel="canonical" href="https://alvaroof.github.io/blog/categories/" />
-<meta property="og:url" content="https://alvaroof.github.io/blog/categories/" />
+<meta name="description" content="Use your own Graphics Card to speed up Tensorflow" />
+<meta property="og:description" content="Use your own Graphics Card to speed up Tensorflow" />
+<link rel="canonical" href="https://alvaroof.github.io/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html" />
+<meta property="og:url" content="https://alvaroof.github.io/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html" />
 <meta property="og:site_name" content="My Data Science Bits" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-11T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tags" />
+<meta property="twitter:title" content="How to configure a laptop’s NVIDIA GPU for Deep Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"My personal thought on several unimportant matters.","headline":"Tags","url":"https://alvaroof.github.io/blog/categories/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-11T00:00:00-05:00","datePublished":"2022-09-11T00:00:00-05:00","description":"Use your own Graphics Card to speed up Tensorflow","headline":"How to configure a laptop’s NVIDIA GPU for Deep Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://alvaroof.github.io/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html"},"url":"https://alvaroof.github.io/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://alvaroof.github.io/blog/feed.xml" title="My Data Science Bits" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -100,112 +101,105 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to configure a laptop&#39;s NVIDIA GPU for Deep Learning</h1><p class="page-description">Use your own Graphics Card to speed up Tensorflow</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-11T00:00:00-05:00" itemprop="datePublished">
+        Sep 11, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-<h2>Contents</h2>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#GPU">GPU</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#tensorflow">tensorflow</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#torch">torch</a>
+        
+      
+      </p>
+    
 
-  
-  
-  
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
 
-  <ul>
-  
-    <li><a href="#fastpages">fastpages</a></li>
-  
-    <li><a href="#GPU">GPU</a></li>
-  
-    <li><a href="#jupyter">jupyter</a></li>
-  
-    <li><a href="#markdown">markdown</a></li>
-  
-    <li><a href="#tensorflow">tensorflow</a></li>
-  
-    <li><a href="#test">test</a></li>
-  
-    <li><a href="#torch">torch</a></li>
-  
-  </ul>
+    <a href="https://github.com/alvaroof/blog/tree/master/_notebooks/2022-09-11-why_i_write.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/blog/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
 
-  
-      <h3 id ="fastpages"><i class="fas fa-tags category-tags-icon"></i></i> fastpages</h3>
-      <a name="fastpages"></a>
-      
-        
-      
-  
-      <h3 id ="GPU"><i class="fas fa-tags category-tags-icon"></i></i> GPU</h3>
-      <a name="GPU"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/12/using_cuda.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 12, 2022</p>
-        </article>
-        
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 11, 2022</p>
-        </article>
-        
-      
-  
-      <h3 id ="jupyter"><i class="fas fa-tags category-tags-icon"></i></i> jupyter</h3>
-      <a name="jupyter"></a>
-      
-        
-      
-        
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/jupyter/2020/02/20/test.html">Fastpages Notebook Blog Post</a>  • Feb 20, 2020</p>
-        </article>
-        
-      
-  
-      <h3 id ="markdown"><i class="fas fa-tags category-tags-icon"></i></i> markdown</h3>
-      <a name="markdown"></a>
-      
-        
-      
-  
-      <h3 id ="tensorflow"><i class="fas fa-tags category-tags-icon"></i></i> tensorflow</h3>
-      <a name="tensorflow"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/12/using_cuda.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 12, 2022</p>
-        </article>
-        
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 11, 2022</p>
-        </article>
-        
-      
-  
-      <h3 id ="test"><i class="fas fa-tags category-tags-icon"></i></i> test</h3>
-      <a name="test"></a>
-      
-        
-      
-  
-      <h3 id ="torch"><i class="fas fa-tags category-tags-icon"></i></i> torch</h3>
-      <a name="torch"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/12/using_cuda.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 12, 2022</p>
-        </article>
-        
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html">How to configure a laptop's NVIDIA GPU for Deep Learning</a>  • Sep 11, 2022</p>
-        </article>
-        
-      
-  
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/alvaroof/blog/master?filepath=_notebooks%2F2022-09-11-why_i_write.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
 
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/alvaroof/blog/blob/master/_notebooks/2022-09-11-why_i_write.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          
+        </div>
+      </header>
 
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-09-11-why_i_write.ipynb
+-->
 
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I've been meaning to start and maintain some sort of blog for some time now, but had never found the will or time to do it.</p>
+<p>That is, until now. See, when you try to do things out of obligation, or force youself in any other
+way to do them, most likely you're going to do them reluctantly and avoid them as much as possible. That's being my situation unil recentlyI
+, always on the lookout for how to start a blog from a technical perspective, like how to setup one, hosting platforms, etc, but never
+getting to actually write anything. I've always wanted to have a blog because I saw it as something cool, something real Data Scientists have, 
+but having overcome that imposter syndrome by now, and also realizing that I am more than the job I have, 
+I find myself in just the position to start to write about things that interest me, and I mean this in a really broa way.</p>
+<p>For now, What I have in mind is to take a few courses on several matters I am intered in (like Deep Learning or Physics/Math)
+and try to portray here what I found interesting on them.</p>
+<p>My main intention and hope with this blog is just to spend some time writing, and if along the proccess I happen to improve my communication
+skills, and have a better grasp of whatever I talk about here, so be it.</p>
+<p>I am not really an smart guy, just an average one who knows how to do ok :). May all this serve as a disclaimer for the poor 
+quality you'll likely find ahead.</p>
 
 </div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="alvaroof/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/gpu/tensorflow/torch/2022/09/11/why_i_write.html" hidden></a>
+</article>
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/blog/"></data>
