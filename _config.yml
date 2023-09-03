@@ -42,6 +42,10 @@ minima:
     twitter: 
     github: alvaroof
     linkedin: alvaroof
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/alvaroof" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/alvaroof/" }
 
 # Set this to true to get LaTeX math equation support
 use_math: true
